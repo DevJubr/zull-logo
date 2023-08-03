@@ -30,7 +30,7 @@ body {
 .zull {
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
 }
 .secNd__Bra__line.cl {
   width: 26px;
@@ -92,7 +92,7 @@ body {
 }
 
 /* zull s */
-.zull__item.left {
+.zull__item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,7 +100,10 @@ body {
 }
 
 .zulls__con {
-  margin: 0 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .blate__of__zull.cl {
@@ -130,4 +133,18 @@ body {
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom: 12px solid #ffde00; /* Change color as needed */
+}
+
+.zull__item.left {
+  transform: rotate(39deg);
+  position: relative;
+  top: 0px;
+  left: 32px;
+}
+
+.zull__item.right {
+  transform: rotate(319deg);
+  position: relative;
+  top: 0px;
+  left: -32px;
 }
