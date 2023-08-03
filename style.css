@@ -90,3 +90,44 @@ body {
   border-bottom-left-radius: 6px;
   background: #ffde00;
 }
+
+/* zull s */
+.zull__item.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.zulls__con {
+  margin: 0 2rem;
+}
+
+.blate__of__zull.cl {
+  width: 30px;
+  height: 120px;
+  position: relative;
+}
+
+.prevender__of__zull.cl {
+  width: 80px;
+  height: 20px;
+}
+
+.hendel__of__zull.cl {
+  width: 20px;
+  height: 40px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.blate__of__zull.cl:after {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 12px solid #ffde00; /* Change color as needed */
+}
