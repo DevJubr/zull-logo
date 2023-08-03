@@ -51,3 +51,33 @@ body {
 .secNd__Bra__round.cl.bottom {
   bottom: 0px;
 }
+
+.secNd__Bra__round.cl.bottom {
+  bottom: 0px;
+}
+
+.secNd__Bra.left:after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 114.9px;
+  top: 22.5px;
+  border-top-left-radius: 11px;
+  left: 23px;
+  border-bottom-left-radius: 11px;
+  background: #06323f;
+}
+
+.secNd__Bra.left:before {
+  content: "";
+  position: absolute;
+  width: 11px;
+  height: 45px;
+  background: aliceblue;
+  left: -9px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background: #ffde00;
+}
