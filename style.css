@@ -27,7 +27,11 @@ body {
 }
 
 /* style start */
-
+.zull {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
 .secNd__Bra__line.cl {
   width: 26px;
   height: 160px;
@@ -45,8 +49,13 @@ body {
   border-bottom-left-radius: 11px;
 }
 
-.secNd__Bra {
+.secNd__Bra.left {
   position: relative;
+  transform: scaleX(1);
+}
+.secNd__Bra.right {
+  position: relative;
+  transform: scaleX(-1);
 }
 .secNd__Bra__round.cl.bottom {
   bottom: 0px;
@@ -56,7 +65,7 @@ body {
   bottom: 0px;
 }
 
-.secNd__Bra.left:after {
+.secNd__Bra:after {
   content: "";
   position: absolute;
   width: 22px;
@@ -68,7 +77,7 @@ body {
   background: #06323f;
 }
 
-.secNd__Bra.left:before {
+.secNd__Bra:before {
   content: "";
   position: absolute;
   width: 11px;
