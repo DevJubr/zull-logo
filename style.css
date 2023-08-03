@@ -23,4 +23,31 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
+}
+
+/* style start */
+
+.secNd__Bra__line.cl {
+  width: 26px;
+  height: 160px;
+  border-radius: 11px;
+  position: relative;
+  top: 0;
+}
+
+.secNd__Bra__round.cl {
+  height: 26px;
+  width: 36px;
+  position: absolute;
+  left: 8px;
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 11px;
+}
+
+.secNd__Bra {
+  position: relative;
+}
+.secNd__Bra__round.cl.bottom {
+  bottom: 0px;
 }
